@@ -17,7 +17,7 @@ func main() {
 	for i := 0; i < t; i++ {
 		var a, b, c int
 		fmt.Scan(&a, &b, &c)
-		if max(max(a+b, b+c), a+c) > 10 {
+		if max(max(a+b, b+c), a+c) >= 10 {
 			fmt.Print("YES\n")
 		} else {
 			fmt.Print("NO\n")
